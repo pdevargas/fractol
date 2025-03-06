@@ -6,7 +6,7 @@
 /*   By: pde-varg <pde-varg@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/18 15:52:18 by pde-varg          #+#    #+#             */
-/*   Updated: 2025/03/06 10:53:43 by pde-varg         ###   ########.fr       */
+/*   Updated: 2025/03/06 12:24:59 by pde-varg         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ int	main(void)//int argc, char **argv)
 	void	*win_ptr;
 	
 	a.x_real = 0;
-	a.y_imagine = 0;
+	a.y_imagine = 0.1;
 	b.x_real = 0.25;
 	b.y_imagine = 0.4;
 	x  = 0;
