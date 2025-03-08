@@ -3,18 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   fractol.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: pde-varg <pde-varg@student.42.fr>          +#+  +:+       +#+        */
+/*   By: pablo.devargas <pablo.devargas@student.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/18 15:52:18 by pde-varg          #+#    #+#             */
-/*   Updated: 2025/03/06 12:24:59 by pde-varg         ###   ########.fr       */
+/*   Updated: 2025/03/07 19:19:16 by pablo.devar      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-
 #include "fractol.h"
-#include "./minilibx-linux/mlx.h"
+#include "../minilibx-mac-osx/mlx.h"
 
-int	main(void)//int argc, char **argv)
+int	main(void)
 {
 	int 	x;
 	t_fractol a;
